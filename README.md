@@ -2,6 +2,7 @@
 ***
 
 ## The most minimalistic, responsive grid on the interwebz
+Even works on IE8 (I hope)
 
 
 ### Kudos to André Schiemann
@@ -9,7 +10,7 @@
 
 ### How to use
 
-```html
+```HTML
 <!-- Responsive Grid -->
 <div class="row">
 	<div class="column grid-10"></div>
@@ -25,12 +26,17 @@
 </div>
 ```
 
+```HTML
+<!-- Center -->
 <div class="row">
        <div class="grid-11 center column">
        <p>grid-11</p>
        </div>
 </div>
+```
 
+```HTML
+<!-- Responsive -->
 <div class="row">
        <div class="grid-12 column medium-split-3"><p>grid-12</p></div>
        <div class="grid-11 column medium-split-3"><p>grid-11</p></div>
@@ -52,3 +58,4 @@
        <div class="grid-6 column split-2"><p>grid-6</p></div>
        <div class="grid-6 column split-2"><p>grid-6</p></div>
 </div>
+```
